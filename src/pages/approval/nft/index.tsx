@@ -67,7 +67,7 @@ const ApprovalToken = () => {
 
   return (
     <>
-      <h1>Approval Token</h1>
+      <h1>Approval NFT</h1>
       <AuthenticationsSection />
       <div className='divider' />
 
@@ -81,7 +81,11 @@ const ApprovalToken = () => {
               <input onChange={(e) => setTokenAddress(e.target.value)} placeholder='Token Address' value={tokenAddress} />
 
               <InputTitle>Operator Address (optional)</InputTitle>
-              <input onChange={(e) => setOperatorAddress(e.target.value)} placeholder='Spender Address' value={operatorAddress} />
+              <input
+                onChange={(e) => setOperatorAddress(e.target.value)}
+                placeholder='Operator Address'
+                value={operatorAddress}
+              />
 
               <button className='primary-button' onClick={handleGetIsApprovedNFT}>
                 Execute
@@ -102,7 +106,7 @@ const ApprovalToken = () => {
                 value={tokenAddress}
               />
 
-              <InputTitle>Spender Address (optional)</InputTitle>
+              <InputTitle>Operator Address (optional)</InputTitle>
               <input
                 disabled
                 onChange={(e) => setOperatorAddress(e.target.value)}

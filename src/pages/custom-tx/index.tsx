@@ -30,7 +30,7 @@ const CustomTx = () => {
   const [methodParams, setMethodParams] = useState(`["${KKUB_ADDRESS}", "to-address", "1000000000000000000"]`)
 
   const [queueId, setQueueId] = useState<string>('')
-  const [status, setStatus] = useState<TransactionStatus>()
+  const [status, setStatus] = useState<TransactionStatus | null>(null)
   const [txHash, setTxHash] = useState<string>('')
   const [loading, setLoading] = useState<boolean>(false)
 
@@ -75,10 +75,7 @@ const CustomTx = () => {
           <h2>Send Custom Transaction</h2>
           <Title>sdk.sendCustomTx()</Title>
           <div className='flex flex-direction-col'>
-            <ItemWrapper
-              className='ibm-plex-mono flex flex-direction-col'
-              // showData={balance !== null}
-            >
+            <ItemWrapper className='ibm-plex-mono flex flex-direction-col' showData={status !== null}>
               <InputTitle>Contract Address</InputTitle>
               <input onChange={(e) => setContractAddress(e.target.value)} placeholder='Token Address' value={contractAddress} />
 
@@ -123,7 +120,6 @@ const CustomTx = () => {
                 )}
               </BlockWrapper>
             )}
-            {/* {balance !== null && <BlockWrapper>{balance}</BlockWrapper>} */}
           </div>
           <div className='divider' />
         </>

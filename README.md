@@ -3,7 +3,8 @@
 Welcome to the BitkubNextSDK Cookbook! This repository contains a collection of practical recipes for using the BitkubNextSDK to interact with the Bitkub Chain Network. Whether you're new to blockchain development or looking to integrate specific functionalities, this cookbook provides step-by-step guides to help you achieve common tasks using the BitkubNextSDK.
 
 For more in-depth information about this cookbook, please check out the detailed article on Medium:
-[Read the full article on Medium](https://medium.com/@fonytas/exploring-the-bitkub-next-sdk-integration-a-walkthrough-of-our-next-js-cookbook-2cc73729d7de)
+
+📝 [Read the full article on Medium](https://medium.com/@fonytas/exploring-the-bitkub-next-sdk-integration-a-walkthrough-of-our-next-js-cookbook-2cc73729d7de)
 
 ## Overview
 

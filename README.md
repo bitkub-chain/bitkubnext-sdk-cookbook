@@ -1,10 +1,15 @@
-# BitkubNextSDK Cookbook
+# 🍴BitkubNextSDK Cookbook🍴
 
 Welcome to the BitkubNextSDK Cookbook! This repository contains a collection of practical recipes for using the BitkubNextSDK to interact with the Bitkub Chain Network. Whether you're new to blockchain development or looking to integrate specific functionalities, this cookbook provides step-by-step guides to help you achieve common tasks using the BitkubNextSDK.
+
+For more in-depth information about this cookbook, please check out the detailed article on Medium:
+[Read the full article on Medium](https://medium.com/@fonytas/exploring-the-bitkub-next-sdk-integration-a-walkthrough-of-our-next-js-cookbook-2cc73729d7de)
 
 ## Overview
 
 **BitkubNextSDK** is a JavaScript library designed for developers to interact with the Bitkub Chain blockchain network. It offers various methods for managing user authentication, retrieving user information, and executing transactions on the blockchain.
+
+---
 
 ## Getting Started
 
@@ -55,3 +60,15 @@ export const sdk = initializeSDK(
 ```
 
 3. Now you should be able to start the project! 🚀
+
+---
+
+### Contact Us
+
+For any questions or feedback, don’t hesitate to reach out!
+
+Website : https://www.bitkubchain.com/
+Facebook : https://www.facebook.com/bitkubchainofficial
+X : https://X.com/bitkubchain
+Discord : ​​https://discord.gg/WkJ6j279
+Telegram : https://t.me/+jiM6dAP5cxUzZTM1

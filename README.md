@@ -69,7 +69,11 @@ export const sdk = initializeSDK(
 For any questions or feedback, don’t hesitate to reach out!
 
 Website : https://www.bitkubchain.com/
+
 Facebook : https://www.facebook.com/bitkubchainofficial
+
 X : https://X.com/bitkubchain
+
 Discord : ​​https://discord.gg/WkJ6j279
+
 Telegram : https://t.me/+jiM6dAP5cxUzZTM1

@@ -18,7 +18,8 @@ import {
   TransactionWrapper,
 } from '@styles/custom-styled-components'
 
-const DEFAULT_FUNCTION_READABLE_ABI = 'transfer(address _tokenAddr, address _recipient, uint256 _amount, address _bitkubNext)'
+const DEFAULT_FUNCTION_READABLE_ABI =
+  'function transfer(address _tokenAddr, address _recipient, uint256 _amount, address _bitkubNext)'
 
 const KKUB_ADDRESS = '0x1BbE34CF9fd2E0669deEE34c68282ec1e6c44ab0'
 

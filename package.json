@@ -10,7 +10,7 @@
 		"eslint": "eslint . --ext .js,.jsx,.tsx,.ts"
 	},
 	"dependencies": {
-		"@bitkub-chain/sdk.js": "^0.1.5",
+		"@bitkub-chain/sdk.js": "^0.1.6",
 		"add": "^2.0.6",
 		"axios": "^1.7.4",
 		"eslint-config-prettier": "^9.1.0",
